@@ -20,7 +20,8 @@ On pressing the Play button user will be presented with the first question and t
 
 User has 100 seconds to answer all the questions.
 
-Add screenshot
+![5415EE94-0531-40CC-8876-71041A62DD90](https://user-images.githubusercontent.com/105487471/225470937-90e0a797-3124-49f8-8ce0-760db328c952.jpeg)
+
 
 If user answers a question correctly, correct answer shows up. The score goes up by one and the user’s current score is shown on the right top corner of the screen.
 

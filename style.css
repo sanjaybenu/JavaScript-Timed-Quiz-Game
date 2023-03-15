@@ -1,0 +1,197 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+
+    text-decoration: none;
+    color: rgb(17, 67, 231);
+}
+#main  {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 180px auto;
+   padding: 10px;
+   text-align: center;
+
+}
+
+#timer, #score {
+
+    font-size: 24px;
+    border: 2px rgba(0, 0, 0, 0.071) solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px grey;
+}
+
+#main h1 {
+
+    font-size: 40px;
+}
+
+#main h3 {
+
+    font-size: 18px;
+}
+
+#play, .btn, #playerRecord {
+
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgb(117, 116, 116);
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#play:hover, .btn:hover {
+
+    background-color: #ef665d;
+}
+
+#quizSection {
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    margin: 180px auto;
+    text-align: center;
+
+}
+
+#quizSection h1 {
+
+    font-size: 40px;
+}
+
+.btn {
+
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+#scoreSection {
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#playerRecord {
+
+    margin: -20px auto;
+}
+
+
+#scoreSection input {
+
+    width: 50%;
+    height: 28px;
+    margin: 5px auto;
+}
+
+#scoreSection h2 {
+
+    margin: 5px auto;
+}
+
+
+/*                        Score PageSyling                   */
+
+body {
+
+    background-image: url(quiz1.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+#highscore {
+
+    margin: 10px auto;
+    font-size: 50px;
+
+}
+
+#scorepage {
+
+    display : flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center; 
+    color: #080808;
+    margin-top: 300px;
+    
+}
+
+#scorepage p {
+
+    font-size: 40px;
+    color: white;
+}
+
+#scorepage a {
+
+    font-size: 28px;
+}
+
+
+#getname {
+
+   
+    align-self: center;
+    margin: 10px;
+    font-size: 40 px;
+    color: white;
+}
+
+/*
+#tomain {
+
+    text-decoration: none;
+    background-color: #f44336;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+*/
+
+#tomain {
+
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgb(117, 116, 116);
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#tomain:hover {
+
+    background-color: #ef665d;
+}
+
+/*        New Section              */
+
+

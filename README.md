@@ -1,4 +1,4 @@
-# JavasScript Timed Quiz Game
+# JavaScript Timed Quiz Game
 
 
 ## Description
@@ -14,7 +14,7 @@ User plays against a running clock and the gam is over if all the questions have
 
 When the app is loaded, user is presented with the main page. In order to start the game click Play button.
 
-Add screenshot
+![C98FA97B-2538-4AD4-AAD4-2AA5E07945E7](https://user-images.githubusercontent.com/105487471/225470470-1ff7207f-2b0b-4d4f-9975-bc57f19504d2.jpeg)
 
 On pressing the Play button user will be presented with the first question and the timer will start the countdown. Timer shows up on the middle of the top of the screen.
 

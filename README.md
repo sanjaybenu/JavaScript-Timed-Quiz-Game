@@ -53,8 +53,7 @@ Caution: if the link is clicked during the progress of the game. It will end the
 
 You can visit the JavaScript Timed Quiz app by clicking on the link below:
 
-Add link 
-
+https://sanjaybenu.github.io/JavaScript-Timed-Quiz-Game/
 
 ## Credits
 

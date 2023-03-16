@@ -48,7 +48,7 @@ User can also see the current high score and use name by click the high scores l
 
 Caution: if the link is clicked during the progress of the game. It will end the game and user may have to start again by clicking back button on the high score page thus presented.
 
-Add screen shot.
+![4ACD0638-05C6-42A6-A73D-6E7C8E89BFED_1_201_a](https://user-images.githubusercontent.com/105487471/225474334-02761c9b-7d02-4a65-8759-1c39d4577526.jpeg)
 
 
 You can visit the JavaScript Timed Quiz app by clicking on the link below:

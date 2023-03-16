@@ -42,7 +42,7 @@ After the initials/name has been input and submit button pressed. User is taken 
 
 There is a back button on the top left of the page to take user back to the main page. 
 
-Add screen shot
+![2B145E6D-5552-416B-B4CB-31B730AB2A34](https://user-images.githubusercontent.com/105487471/225473635-71594cb4-0641-4127-bcc9-d763b85142e7.jpeg)
 
 User can also see the current high score and use name by click the high scores link on the top left main page or anytime during the progress of the game by clicking link on the top left.
 

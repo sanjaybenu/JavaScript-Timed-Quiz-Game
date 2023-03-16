@@ -17,7 +17,7 @@ var quizArray = [
     { ques: "var x = 4. What value will Math.SQRT1_2(x)will return", ans1: "1", ans2: "3", ans3: "16", ans4: "2", ans: "2" },
     { ques: "var x = Math.ceil(4.7). What is the value of x", ans1: "4.7", ans2: "5", ans3: "4", ans4: "0.7", ans: "5" },
     { ques: " var x = Math.floor(4.7). What is the value of x ", ans1: "4.7", ans2: "5", ans3: "4", ans4: "0.7", ans: "4" },
-    { ques: ' var cars = [“BMW”, “Merc”, “Toyota”, “Kia”] .  for(var i=0; i< cars.length;i++){console.log(cars[i])} will return', ans1: "BMW", ans2: "Merc", ans3: "Kia", ans4: "BMW, Merc,Toyota,Kia", ans: " BMW, Merc,Toyota,Kia" },
+    { ques: ' var cars = [“BMW”, “Merc”, “Toyota”, “Kia”] .  for(var i=0; i< cars.length;i++){console.log(cars[i])} will return', ans1: "BMW", ans2: "Merc", ans3: "Kia", ans4: "BMW, Merc,Toyota,Kia", ans: "BMW, Merc,Toyota,Kia" },
     { ques: "typeof(null) is?", ans1: "0", ans2: "undefined", ans3: "nil", ans4: "an object", ans: "an object" },
     { ques: 'var x = “500” + 1 ', ans1: "501", ans2: "undefined", ans3: "5001", ans4: "can not add", ans: "5001" },
     { ques: "if var a= ‘100’; var b = 100 is a==b", ans1: "true", ans2: "false", ans3: "undefined", ans4: "null", ans: "true" },

@@ -38,7 +38,7 @@ If user reaches the end of questionnaire or the time runs out, user is taken to 
 
 After the initials/name has been input and submit button pressed. User is taken to high score page. If the user has scored higher than the previous highest score, user’s name and score will show up on this page , else the user will see the name and score of the current highest score holder.
 
-Add screen shot
+<img width="974" alt="63665371-E236-4F8F-8382-1B0990C0DDC9" src="https://user-images.githubusercontent.com/105487471/225473078-2cdce553-0159-48f8-80ac-9cf5fc4e4096.png">
 
 There is a back button on the top left of the page to take user back to the main page. 
 

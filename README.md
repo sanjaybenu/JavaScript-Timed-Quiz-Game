@@ -33,6 +33,9 @@ If user reaches the end of questionnaire or the time runs out, user is taken to 
 
 ![1DD60924-C8F2-4960-A59E-E13ECDD21A70](https://user-images.githubusercontent.com/105487471/225472113-010c300c-33b2-4104-b5b2-0d6e135d3b24.jpeg)
 
+
+![68F21886-416A-4E20-A511-3DCCB9FC69CA](https://user-images.githubusercontent.com/105487471/225472498-d46879a8-cf42-4984-82dc-b4b6f6208326.jpeg)
+
 After the initials/name has been input and submit button pressed. User is taken to high score page. If the user has scored higher than the previous highest score, user’s name and score will show up on this page , else the user will see the name and score of the current highest score holder.
 
 Add screen shot

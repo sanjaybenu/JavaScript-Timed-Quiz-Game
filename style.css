@@ -1,4 +1,3 @@
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -9,18 +8,20 @@
     text-decoration: none;
     color: rgb(17, 67, 231);
 }
-#main  {
 
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   margin: 180px auto;
-   padding: 10px;
-   text-align: center;
+#main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 180px auto;
+    padding: 10px;
+    text-align: center;
 
 }
 
-#timer, #score {
+#timer,
+#score {
 
     font-size: 24px;
     border: 2px rgba(0, 0, 0, 0.071) solid;
@@ -38,7 +39,9 @@
     font-size: 18px;
 }
 
-#play, .btn, #playerRecord {
+#play,
+.btn,
+#playerRecord {
 
     background-color: #f44336;
     color: #fff;
@@ -53,7 +56,8 @@
     margin: 10px;
 }
 
-#play:hover, .btn:hover {
+#play:hover,
+.btn:hover {
 
     background-color: #ef665d;
 }
@@ -111,7 +115,7 @@
 
 body {
 
-    background-image: url(quiz1.jpg) ;
+    background-image: url(quiz1.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -127,13 +131,13 @@ body {
 
 #scorepage {
 
-    display : flex;
+    display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center; 
+    justify-content: center;
+    align-items: center;
     color: #080808;
     margin-top: 300px;
-    
+
 }
 
 #scorepage p {
@@ -150,7 +154,7 @@ body {
 
 #getname {
 
-   
+
     align-self: center;
     margin: 10px;
     font-size: 40 px;
@@ -193,5 +197,3 @@ body {
 }
 
 /*        New Section              */
-
-

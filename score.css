@@ -1,15 +1,16 @@
 body {
 
-    background-image: url(quiz1.jpg) ;
+    background-image: url(quiz1.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     color: white;
 }
+
 h5 {
 
     font-size: 16px;
- }
+}
 
 div {
 
@@ -62,7 +63,7 @@ button:hover {
 
 }
 
-#tomain{
+#tomain {
 
     background: transparent;
 }

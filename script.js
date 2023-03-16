@@ -7,7 +7,7 @@ var quizArray = [
     { ques: "What symbol is used to assign a value to a variable", ans1: "=", ans2: "~", ans3: "===", ans4: "equals", ans: "=" },
     { ques: " if var a= 10; var b=3;var c=a%b. Value of c is ", ans1: "3", ans2: "30", ans3: "1", ans4: "undefined", ans: "1" },
     { ques: "Array is enclosed within ___ brackets", ans1: "Square", ans2: "curly", ans3: "parentheses", ans4: "Angle", ans: "Square" },
-    { ques: "var fruits =[“kiwi”, “guava”, “apple”, “banana”] what is fruits[2]?" , ans1: "banana", ans2: "guava", ans3: "apple", ans4: "kiwi", ans: "apple" },
+    { ques: "var fruits =[“kiwi”, “guava”, “apple”, “banana”] what is fruits[2]?", ans1: "banana", ans2: "guava", ans3: "apple", ans4: "kiwi", ans: "apple" },
     { ques: "array.push(“value”) will add “value” to the _____ of the array", ans1: "end", ans2: "beginning", ans3: "anywhere", ans4: "replaces first item", ans: "end" },
     { ques: "var animal= [“cat”, “dog”, “tiger”, “horse”]. animal.shift() will replace____", ans1: "dog", ans2: "cat", ans3: "tiger", ans4: "horse", ans: "cat" },
     { ques: "What is the most common method to join multiple words?", ans1: "Pascal Case", ans2: "Underscore", ans3: "CamelCase", ans4: "Hyphens", ans: "CamelCase" },
@@ -16,9 +16,9 @@ var quizArray = [
     { ques: "Object is written between____brackets", ans1: "Square", ans2: "Curly", ans3: "Parentheses", ans4: "Angle", ans: "Curly" },
     { ques: "var x = 4. What value will Math.SQRT1_2(x)will return", ans1: "1", ans2: "3", ans3: "16", ans4: "2", ans: "2" },
     { ques: "var x = Math.ceil(4.7). What is the value of x", ans1: "4.7", ans2: "5", ans3: "4", ans4: "0.7", ans: "5" },
-    { ques: " var x = Math.floor(4.7). What is the value of x ", ans1: "4.7", ans2: "5", ans3: "4", ans4: "0.7", ans:"4" },
-    { ques: ' var cars = [“BMW”, “Merc”, “Toyota”, “Kia”] .  for(var i=0; i< cars.length;i++){console.log(cars[i])} will return' , ans1:"BMW", ans2: "Merc", ans3: "Kia", ans4: "BMW, Merc,Toyota,Kia", ans: " BMW, Merc,Toyota,Kia" },
-    { ques: "typeof(null) is?" , ans1: "0", ans2: "undefined", ans3: "nil", ans4: "an object", ans: "an object" },
+    { ques: " var x = Math.floor(4.7). What is the value of x ", ans1: "4.7", ans2: "5", ans3: "4", ans4: "0.7", ans: "4" },
+    { ques: ' var cars = [“BMW”, “Merc”, “Toyota”, “Kia”] .  for(var i=0; i< cars.length;i++){console.log(cars[i])} will return', ans1: "BMW", ans2: "Merc", ans3: "Kia", ans4: "BMW, Merc,Toyota,Kia", ans: " BMW, Merc,Toyota,Kia" },
+    { ques: "typeof(null) is?", ans1: "0", ans2: "undefined", ans3: "nil", ans4: "an object", ans: "an object" },
     { ques: 'var x = “500” + 1 ', ans1: "501", ans2: "undefined", ans3: "5001", ans4: "can not add", ans: "5001" },
     { ques: "if var a= ‘100’; var b = 100 is a==b", ans1: "true", ans2: "false", ans3: "undefined", ans4: "null", ans: "true" },
     { ques: "if var a= ‘100’; var b = 100 is a===b", ans1: "true", ans2: "false", ans3: "undefined", ans4: "null", ans: "false" },
@@ -43,7 +43,7 @@ function setTime() {
 
             clearInterval(timerInterval);
             timeEl.textContent = "time over";
-            
+
             endPlay();
         }
 
@@ -83,18 +83,18 @@ function play() {
             var state = element.getAttribute("id");
             if (state === quizArray[i].ans) {
                 score += 1;
-                scoreEl.textContent = "Your Score: "+ score;
+                scoreEl.textContent = "Your Score: " + score;
                 outcomeEl.textContent = 'Correct Answer';
 
             }
 
-            else { 
+            else {
                 outcomeEl.textContent = 'Wrong Answer';
                 secondsLeft -= 10
 
             };
             i += 1;
-            scoreEl.textContent = "Your Score: "+ score;
+            scoreEl.textContent = "Your Score: " + score;
             quizHeader.textContent = quizArray[i].ques;
             btn1.textContent = quizArray[i].ans1;
             btn2.textContent = quizArray[i].ans2;
@@ -112,39 +112,39 @@ function play() {
 
         }
     })
-    return;                              
+    return;
 };
 
 function endPlay() {
     var quizPage = document.getElementById('quizSection');
     var scorePage = document.getElementById('scoreSection');
     var topSection = document.getElementById('top-section');
-    topSection.style.display  = 'none';
-    quizPage.style.display ='none';
+    topSection.style.display = 'none';
+    quizPage.style.display = 'none';
     scorePage.style.display = 'flex';
 
-    return;                               
+    return;
 }
 
 function storeLocal(event) {
 
     event.preventDefault();
-    if (score > localStorage.getItem('score') || localStorage.getItem('score')=== 'null') {     
+    if (score > localStorage.getItem('score') || localStorage.getItem('score') === 'null') {
         localStorage.setItem('score', score);
-    var initials = document.getElementById('initials').value;
-    localStorage.setItem('initials', initials);
+        var initials = document.getElementById('initials').value;
+        localStorage.setItem('initials', initials);
     };
-    
+
     var scorePage = document.getElementById('scoreSection');
     var topSection = document.getElementById('top-section');
     var mainPage = document.getElementById("main");
-    scorePage.style.display= "none";
-    topSection.style.display  = 'flex';
+    scorePage.style.display = "none";
+    topSection.style.display = 'flex';
     mainPage.style.display = "flex";
     location.href = "score.html";
     return;
-                                    
-      
+
+
 };
 
 

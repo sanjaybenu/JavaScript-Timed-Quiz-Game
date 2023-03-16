@@ -5,31 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Timed Quiz</title>
+    <title>JavaScript Timed Quiz Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+    <!-------------- Top Section for timer score and link to high scores ---->
     <header class="header" id="top-section">
         <a href="score.html">
             <h5>High Scores</h5>
         </a>
         <p id="timer"></p>
         <p id="score"></p>
-
+    
     </header>
-    <div id="main">
+    <!---------------- Main Page ------------------------->
+    <section id="main">
         <h1 id="title">Test your Javascript Knowledge</h1>
         <h3>You have 100 secs to go through the questions.Each correct answer will add 1 to your score.Each Incorrect
             answer will deduct 10 secs of the timer</h3>
         <div class="herobtn">
             <button id="play">Play</button>
         </div>
-    </div>
-
-
-    <div id="quizSection">
+    </section>
+    
+    <!-------------- Quiz section ------------------->
+    <section id="quizSection">
         <h1 id="quizHeader"></h1>
         <div class="quizContainer">
             <div>
@@ -48,8 +49,8 @@
                 <p id="outcome"></p>
             </div>
         </div>
-    </div>
-
+    </section>
+    <!----------------- Form to input initials ----------->
     <form id="scoreSection">
         <h2>Submit Your Intials</h2>
         <input type="text" id="initials" placeholder="Enter your intials...." required>
@@ -58,7 +59,7 @@
     </form>
 
 
-
+    <!-------- Link to js script   ------>
 
     <script src="script.js"></script>
 

@@ -1,5 +1,5 @@
 
-//Add more Questions and replace placeholders
+//Questions Array with stored answers
 
 var quizArray = [
     { ques: "Where do you normally put a link to js file", ans1: "body", ans2: "footer", ans3: "Head", ans4: "header", ans: "body" },
@@ -26,6 +26,7 @@ var quizArray = [
     { ques: "Things you can build with JavaScript", ans1: "Web Applications", ans2: "Server applications", ans3: "Games", ans4: "All of the above", ans: "All of the above" }
 ];
 
+//V Global variables
 var timeEl = document.getElementById("timer");
 var playBtn = document.getElementById("play");
 var secondsLeft = 100;
@@ -34,6 +35,9 @@ var btn1 = document.getElementById("btn1");
 var btn2 = document.getElementById("btn2");
 var btn3 = document.getElementById("btn3");
 var btn4 = document.getElementById("btn4");
+
+//Timer Function
+
 function setTime() {
     var timerInterval = setInterval(function () {
         secondsLeft -= 1;
@@ -50,6 +54,7 @@ function setTime() {
     }, 1000);
 }
 
+//Function to start the quiz
 
 function startPlay() {
     var mainPage = document.getElementById("main");
@@ -71,6 +76,8 @@ function startPlay() {
 };
 
 playBtn.addEventListener("click", startPlay);
+
+// For playing the quiz and functions to add score and deduct time off timer
 var i = 0;
 var score = 0;
 var scoreEl = document.getElementById('score')
@@ -115,6 +122,9 @@ function play() {
     return;
 };
 
+
+//Function to end play and display score page to input initials
+
 function endPlay() {
     var quizPage = document.getElementById('quizSection');
     var scorePage = document.getElementById('scoreSection');
@@ -126,6 +136,7 @@ function endPlay() {
     return;
 }
 
+//Function to store score and name locally in the evnt of achieved score being higher than previous highest score
 function storeLocal(event) {
 
     event.preventDefault();

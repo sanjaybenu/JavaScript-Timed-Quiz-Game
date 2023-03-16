@@ -1,3 +1,6 @@
+
+/*     Styling of header section of main page        */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -9,6 +12,16 @@
     color: rgb(17, 67, 231);
 }
 
+#timer,
+#score {
+
+    font-size: 24px;
+    border: 2px rgba(0, 0, 0, 0.071) solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px grey;
+}
+
+/*            Main Page Styling                 */
 #main {
 
     display: flex;
@@ -20,14 +33,7 @@
 
 }
 
-#timer,
-#score {
 
-    font-size: 24px;
-    border: 2px rgba(0, 0, 0, 0.071) solid;
-    border-radius: 5px;
-    box-shadow: 3px 3px 4px grey;
-}
 
 #main h1 {
 
@@ -61,7 +67,7 @@
 
     background-color: #ef665d;
 }
-
+/*       Quiz Section Styling        */
 #quizSection {
 
     display: none;
@@ -83,7 +89,7 @@
     justify-content: center;
     margin-left: 40px;
 }
-
+/*    Score Section Styling       */
 #scoreSection {
 
     display: none;
@@ -111,7 +117,7 @@
 }
 
 
-/*                        Score PageSyling                   */
+/*                       Overall Styling                  */
 
 body {
 
@@ -122,78 +128,7 @@ body {
     color: white;
 }
 
-#highscore {
-
-    margin: 10px auto;
-    font-size: 50px;
-
-}
-
-#scorepage {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #080808;
-    margin-top: 300px;
-
-}
-
-#scorepage p {
+#outcome {
 
     font-size: 40px;
-    color: white;
 }
-
-#scorepage a {
-
-    font-size: 28px;
-}
-
-
-#getname {
-
-
-    align-self: center;
-    margin: 10px;
-    font-size: 40 px;
-    color: white;
-}
-
-/*
-#tomain {
-
-    text-decoration: none;
-    background-color: #f44336;
-    border: 1px solid #000;
-    border-radius: 5px;
-    width: 300px;
-    height: 50px;
-    text-align: center;
-    color: white;
-}
-*/
-
-#tomain {
-
-    background-color: #f44336;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 8px;
-    box-shadow: 3px 3px 8px rgb(117, 116, 116);
-    text-align: center;
-    width: 300px;
-    height: 50px;
-    font-size: 24px;
-    padding: 5px;
-    margin: 10px;
-    text-decoration: none;
-}
-
-#tomain:hover {
-
-    background-color: #ef665d;
-}
-
-/*        New Section              */

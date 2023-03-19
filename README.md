@@ -61,7 +61,7 @@ I would like to thank my instructor Jack Song  and TA Siddharth Baral of Monash 
 
 I would also like to acknowledge Matthew Lemke of tutoring team to help me understand concepts of the local storage and its usage.
 
-I also acknowledge freepik.com for the background image. You can visit them by clicking this link  freepik-background-image
+I also acknowledge freepik.com for the background image. You can visit them by clicking this link  <a href="https://www.freepik.com/free-photo/color-interrogation-symbols_973683.htm#query=question%20mark%20background&position=3&from_view=search&track=ais">Image by dashu83</a> on Freepik
 
 
 ## License
